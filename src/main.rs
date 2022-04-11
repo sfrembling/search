@@ -2,7 +2,7 @@ use clap::Parser;
 use webbrowser;
 
 #[derive(Parser)]
-/// An object containing the parsed command line arguments
+/// Search for anything, almost anywhere.
 struct SearchQuery {
     #[clap(required(true))]
     /// The query to be searched using Google or the specified search engine
